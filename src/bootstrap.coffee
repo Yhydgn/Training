@@ -1,0 +1,5 @@
+# ======
+# MASHUP
+# ======
+
+$ -> Mashup.Application.run()

@@ -1,0 +1,62 @@
+html { height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 10;
+  padding: 0 20px;
+  overflow: hidden;
+  min-width: 800px;
+  background-color: #FCFCFC;
+  color: #2B2B2B;
+  border-top: 4px solid #AD141E;
+  height: 100%;
+}
+
+section#content {
+  width: 100%;
+  height: 100%;
+}
+
+div#map {
+  display: none;
+  height: 75%;
+  width: 100%;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+}
+
+div#search_box {
+  width: 100%;
+}
+
+input#artists {
+  padding: 7px 14px;
+  border-radius: 3px;
+  font-size: 12;
+  color: grey;
+  width: 30%;
+  border: 2px solid #eee;
+}
+
+div.video_container {
+  margin: 10px;
+}
+
+/* {{{ Autocomplete fixes to make it match our colorscheme */
+ul.ui-autocomplete {
+  background: #fff;
+}
+
+ul.ui-autocomplete li a {
+  background: #fff;
+  color: grey;
+  text-align: left;
+}
+
+ul.ui-autocomplete li a.ui-state-hover {
+  background: #fff;
+  border: none;
+  color: #AD141E;
+}
+/* }}} End of autocomplete fixes */
