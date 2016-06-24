@@ -2,7 +2,6 @@ mashup
 ======
 
 Lastfm + Google Maps + YouTube mashup.
-[Demo](http://madundead.github.com/mashup/)
 #### Doesn't work anymore due to broken lastfm API
 
 
