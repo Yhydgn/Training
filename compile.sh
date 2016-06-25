@@ -1,5 +1,5 @@
 #!/bin/bash
-
+//New line
 coffee -cj js/app.js \
   src/util.coffee \
   src/models/ \
