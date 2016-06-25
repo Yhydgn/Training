@@ -5,9 +5,7 @@
 */
 (function() {
 
-Jath = {};
-Jath.parse = parse;
-Jath.resolver = null;
+
 // values prefixed with literal charactar marker will not be
 // treated as xpath expressions and will be output directly
 Jath.literalChar = ":";
